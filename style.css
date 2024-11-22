@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 2.25em;
+}
+
+#title{
+    background-color: rgb(22, 22, 43);
+    color: whitesmoke;
+    height: 5em;
+    text-align: center;
+
+
+}
+.action{
+    height: 150px;
+    width: 150px;
+    box-sizing: border-box;  /*important*/
+}
+
+#rock,#paper,#scissor{
+    background-size: cover;
+    background-position:center ;
+    border-radius: 50%;
+}
+
+#rock{
+    background-image: url(rock.png);
+}
+
+#paper{
+    background-image: url(paper.png);
+
+}
+ 
+#scissor{
+    background-image: url(scissors.png);
+}
+
+.cont{
+    display: flex;
+    justify-content:center;
+    gap:60px;
+}
+
+.action:hover{
+    border: 5px solid rgb(255, 0, 255);
+}
+
+#cont2{
+    margin-top:50px;
+    display: flex;
+    justify-content: center; 
+    gap: 50px;
+}
+
+#ply1,#ply2{
+    display: inline-block;
+}
+
+#result{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+#ans{
+    background-color: white;
+    color:white;
+    border-radius: 10px;
+    width: 400px;
+    font-weight: bold; 
+    transition: all 0.3s ease-in-out;
+}
+
+.player{
+    font-size: 45px;
+}
+
+#theam{
+    display: flex;
+    margin-right: 30px;
+    justify-content:flex-end;
+}
+#moon{
+    margin-top: 15px;
+    font-size:40px;
+}
